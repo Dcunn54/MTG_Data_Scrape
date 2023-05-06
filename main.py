@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import pandas as pd
 
-s = Service('/Users/Daniel/Desktop/chromedriver_win32')
+s = Service('chromedriver_win32 location')
 options = webdriver.ChromeOptions()
 options.add_argument("--headless=new")
 driver = webdriver.Chrome(service=s, options=options)
